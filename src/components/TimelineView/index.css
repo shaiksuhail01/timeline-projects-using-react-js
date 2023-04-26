@@ -1,0 +1,45 @@
+.timeLineContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.headingTextOne {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  text-align: center;
+}
+.headingTextTwo {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #2b237c;
+  text-align: center;
+}
+.chronoContainer {
+  width: 400px;
+  height: 600px;
+}
+@media screen and (min-width: 768px) {
+  .chronoContainer {
+    width: 800px;
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .chronoContainer {
+    width: 900px;
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headingTextOne {
+    font-size: 20px;
+  }
+  .headingTextTwo {
+    font-size: 25px;
+  }
+}

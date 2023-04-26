@@ -1,0 +1,59 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.durationContainer {
+  display: flex;
+  align-items: center;
+}
+.courseHeadingText {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #1e293b;
+  font-weight: bold;
+  margin: 0px;
+}
+.clockIcon {
+  font-size: 14px;
+}
+.durationText {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.descriptionText {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #1e293b;
+  margin: 0px;
+  font-weight: 500;
+}
+.courseTagListContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listItemContainer {
+  color: #1e293b;
+  background-color: #e6ecea;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 11px;
+  border-radius: 6px;
+  border-width: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 6px;
+  margin: 4px;
+  padding-left: 6px;
+}
+@media screen and (min-width: 768px) {
+  .titleContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+}
